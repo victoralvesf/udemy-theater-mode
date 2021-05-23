@@ -19,7 +19,7 @@ There is a new button to switch between default mode and theater mode.
 git clone https://github.com/victoralvesf/udemy-theater-mode.git
 ```
 
-2. Open the extensions page [edge://extensions/](edge://extensions/)
+2. Open the extensions page `edge://extensions/`
 3. Enable `Developer mode`
 4. Click on the option `Load unpacked`
 5. Select the project directory
@@ -32,7 +32,7 @@ git clone https://github.com/victoralvesf/udemy-theater-mode.git
 git clone https://github.com/victoralvesf/udemy-theater-mode.git
 ```
 
-2. Open the extensions page [chrome://extensions/](chrome://extensions/)
+2. Open the extensions page `chrome://extensions/`
 3. Enable `Developer mode`
 4. Click on the option `Load unpacked`
 5. Select the project directory
