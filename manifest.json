@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Udemy Theater Mode",
+  "version": "0.1.0",
+  "description": "Make a Twitch like theater mode for Udemy courses.",
+  "author": "Victor Alves",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "matches": [
+        "https://www.udemy.com/course/*/learn/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

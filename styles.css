@@ -1,0 +1,23 @@
+[data-theater-style="theater"] body {
+  overflow-y: hidden !important;
+}
+
+.udemy-theater-icon {
+  width: 24px !important;
+  fill: #f7f8fa !important;
+}
+
+[data-theater-style="theater"]
+  .curriculum-item-view--scaled-height-limiter--1j3Pp {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  max-height: calc(100vh - 56px) !important;
+}
+
+@media (min-width: 768px) {
+  [data-theater-style="theater"]
+    .curriculum-item-view--scaled-height-limiter--1j3Pp {
+    min-height: calc(100vh - 56px) !important;
+  }
+}
